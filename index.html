@@ -37,11 +37,14 @@
 	<body>
 
 		<div class="reveal">
+			<header id="myHead"></header>
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
+
+				<section data-state="mark">
 					<!-- Intro -->
+					<!-- <img id="mark" class="watermark" src="./lib/images/hops-inverted.png" alt="" /> -->
 					<img src="./lib/images/hops-inverted.png" alt="" />
 					<h1><span class="ibulogo">IBU</span> Code Sprint</h1>
 					<h4 class="fragment highlight-green">A Head First into Collaborative, agile, Sprint-based Development</h4>
@@ -51,15 +54,26 @@
 					<!-- Scope of DI (one liner), Develope Software utilities for the library -->
 				</section>
 
-				<section>
+
+
+				<section data-state="mark" data-background="./lib/images/WhatisIBU.jpg">
 					<!-- What is IBU -->
-					<h1>What is IBU?</h1>
+					<!-- Color is NOT right..... YET -->
+					<div class="textbackgroundcolor">
+						<p>
+							I <span style="color:#bee4fd">.</span> B <span style="color:#bee4fd">.</span> U <span style="color:#bee4fd">.</span>
+						</br></br>
+							Ingestion Batch Utility
+						</br>
+						</p>
+					</div>
+					</script>
 					<!-- Meaning, Needs are relative to each person and everyone has invested interest, Brief Description of What it Does -->
 				</section>
 
-				<section>
+				<section data-state="don" data-background="./lib/images/departmental.jpg">
 					<!-- Departmental Traditions-->
-					<h1>Departmental Traditions</h1>
+					<h1>Departmental Traditions..</h1>
 						<!-- Start by describing how we've worked traditionally -->
 							<!-- Develop alone "Code Cowboys" -->
 							<!-- Use the tools you know and are comfortable with -->
@@ -493,6 +507,14 @@ Reveal.addEventListener( 'customevent', function() {
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
+			var myHead = document.querySelector('#myHead');
+			  Reveal.addEventListener( 'mark', function() {
+			    myHead.innerHTML='<img id="mark" class="watermark" src="./lib/images/hops-inverted.png" alt="" />';
+			  }, false );
+				Reveal.addEventListener( 'don', function() {
+					myHead.innerHTML='<img id="don" class="watermark" src="./lib/images/hops-inverted.png" alt="" />';
+				}, false );
+
 
 		</script>
 
