@@ -2,6 +2,13 @@
 Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
 based on dark.css by Ivan Sagalaev
 */
+
+.yellow{
+color: yellow;
+}
+.green{
+color: green;
+}
 .textbackgroundcolor {
   display: block;
   padding: 5px;
