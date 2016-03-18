@@ -3,11 +3,19 @@ Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
 based on dark.css by Ivan Sagalaev
 */
 div.right {
+  width: 300px;
     margin-left: 85%;
     background-color: rgba(2,2,2,0.8);
 }
 div.left {
     margin-right: 85%;
+}
+div.department {
+  width: 500px;
+  position:fixed;
+  right: -16%;
+  color: #873939;
+
 }
 #grey {
   color: #F5EF41;
