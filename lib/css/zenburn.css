@@ -11,16 +11,11 @@ based on dark.css by Ivan Sagalaev
 
 #challenges {
   color: #42affa;
-  /* Safari */
--webkit-transform: rotate(-10deg);
-/* Firefox */
--moz-transform: rotate(-10deg);
-/* IE */
--ms-transform: rotate(-10deg);
-/* Opera */
--o-transform: rotate(-10deg);
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 div.right {
@@ -41,7 +36,7 @@ div.department {
   height: auto;
   position: absolute;
   top: 0;
-  right:0;
+  right:-90px;
   /*position:fixed;
   right: -16%;*/
   color: #873939;
@@ -51,12 +46,11 @@ div.department {
 div.planning {
   margin-top: 0px;
   margin-bottom: 100%;
-
   background-color: rgba(2,2,2,0.4);
 }
 
 #communication {
-color: #00BCD4;
+  color: #00BCD4;
 }
 
 h1.outcomes {
@@ -64,7 +58,7 @@ h1.outcomes {
   background-color: rgba(2,2,2,0.8);
   width: 500px;
   position: absolute;
-  top: 60vh;
+  top: 40vh;
   left: 0;
 }
 
@@ -74,7 +68,7 @@ p.conclusion {
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50vh;
+  margin-top: 33vh;
   display: block;
   width: 800px;
 }
