@@ -2,34 +2,49 @@
 Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
 based on dark.css by Ivan Sagalaev
 */
+
 div.right {
-  width: 300px;
-    margin-left: 85%;
-    background-color: rgba(2,2,2,0.8);
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(2,2,2,0.8);
 }
+
 div.left {
     margin-right: 85%;
 }
+
 div.department {
   width: 500px;
-  position:fixed;
-  right: -16%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right:0;
+  /*position:fixed;
+  right: -16%;*/
   color: #873939;
 
 }
+
 div.planning {
   margin-top: 0px;
   margin-bottom: 100%;
 }
+
 #communication {
 color: #00BCD4;
 }
+
 h1.outcomes {
   color: #B56116;
 }
+
 p.conclusion {
   color: rgba(255,224,201,0.8);
 }
+
 div.success {
   width: 500px;
   position:fixed;
@@ -39,7 +54,7 @@ div.success {
   -webkit-text-fill-color: transparent;
 }
 #grey {
-  color: #F5EF41;
+  color: #42affa;
 }
 #space {
   color: #81740E;
@@ -52,14 +67,14 @@ div.success {
   color: green;
 }
 
-.textbackgroundcolor {
+/*.textbackgroundcolor {
   display: block;
   padding: 5px;
   overflow: auto;
   max-height: 400px;
   word-wrap: normal;
   background-color: rgba(255,140,0,0.8);
-}
+}*/
 
 .textbackgroundcolor p {
   font-weight: bold;
