@@ -17,6 +17,27 @@ div.department {
   color: #873939;
 
 }
+div.planning {
+  margin-top: 0px;
+  margin-bottom: 100%;
+}
+#communication {
+color: #00BCD4;
+}
+h1.outcomes {
+  color: #B56116;
+}
+p.conclusion {
+  color: rgba(255,224,201,0.8);
+}
+div.success {
+  width: 500px;
+  position:fixed;
+  right: 20px;
+  background: -webkit-linear-gradient(right, #ccc, #111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #grey {
   color: #F5EF41;
 }
@@ -27,7 +48,6 @@ div.department {
 .yellow{
   color: yellow;
 }
-
 .green{
   color: green;
 }
@@ -52,7 +72,7 @@ div.department {
   padding: 0;
   list-style: none;
   z-index: 99;
-  opacity: 0.2;
+  opacity: 0.3;
   width: 30px;
   height: 30px;
 }
@@ -60,15 +80,13 @@ div.department {
 #mark {
   margin: 0px;
   border: 0px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
   background-color: red;
 }
 
 #don {
   margin: 0px;
   border: 0px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-  background-color: yellow;
+  background-color: green;
 }
 
 .ibulogo {
