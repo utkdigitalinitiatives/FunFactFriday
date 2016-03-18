@@ -2,13 +2,28 @@
 Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
 based on dark.css by Ivan Sagalaev
 */
+div.right {
+    margin-left: 85%;
+    background-color: rgba(2,2,2,0.8);
+}
+div.left {
+    margin-right: 85%;
+}
+#grey {
+  color: #F5EF41;
+}
+#space {
+  color: #81740E;
+}
 
 .yellow{
-color: yellow;
+  color: yellow;
 }
+
 .green{
-color: green;
+  color: green;
 }
+
 .textbackgroundcolor {
   display: block;
   padding: 5px;
@@ -17,6 +32,7 @@ color: green;
   word-wrap: normal;
   background-color: rgba(255,140,0,0.8);
 }
+
 .textbackgroundcolor p {
   font-weight: bold;
   color: yellow;
